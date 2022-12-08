@@ -1,0 +1,33 @@
+
+.faq-title-btn {
+    background: none;
+    outline: none !important;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .card-body {
+    font-size: 16px;
+  }
+   
+    .faq-title-btn{
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    button.btn-link:after {
+      content: "\f106";
+      font-family: FontAwesome;
+      float: right;
+      font-size: 26px;
+    }
+    button.btn.btn-link.collapsed:after{
+      content: "\f107";
+      font-family: FontAwesome;
+    }
+  
+  
